@@ -16,16 +16,17 @@ const ingredients = [
 ];
 
 const ingredientsRef = document.querySelector('ul');
+const valueElement = [];
 
 for (let i = 0; i < ingredients.length; i += 1) {
-  
   const elementsItem = document.createElement("li");
   elementsItem.textContent = ingredients[i];
   elementsItem.classList.add('item');
-  
-  ingredientsRef.append(elementsItem);
-
+  valueElement.push(elementsItem);
 }
-console.log(ingredientsRef);
+  
+ingredientsRef.append(...valueElement);
+
+
 
 
