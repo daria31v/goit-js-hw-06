@@ -13,7 +13,6 @@ const changeFontSizeInput = () => {
 
     const newFontSize = `${fontSizeChange.value}px`;
     textFontInput.style.fontSize = newFontSize;
-
 }
 
 fontSizeChange.addEventListener('input', changeFontSizeInput);

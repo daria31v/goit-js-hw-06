@@ -6,7 +6,6 @@
 // Після чого, вставить усі <li> за одну операцію у список ul#ingredients.
 
 
-
 const ingredients = [
   'Potatoes',
   'Mushrooms',

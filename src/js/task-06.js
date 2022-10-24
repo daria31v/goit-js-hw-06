@@ -24,4 +24,3 @@ const inputValidate = () => {
 }
 
 inputRef.addEventListener('blur', inputValidate)
-

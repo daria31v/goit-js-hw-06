@@ -28,4 +28,3 @@ function onFormSubmit(event) {
 }
 
 formRef.addEventListener('submit', onFormSubmit);
-

@@ -12,4 +12,3 @@ textInput.addEventListener("input", (event) => {
     }
     output.textContent = event.currentTarget.value;
 });
-
